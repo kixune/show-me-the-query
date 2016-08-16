@@ -1,0 +1,44 @@
+/*ELEMENTS*/
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5em;
+  font-family: "Bungee Hairline", cursive;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0047AB;
+}
+
+
+/*CLASSES*/
+.row {
+  box-sizing: border-box;
+  height: 33%;
+  line-height: 3;
+
+}
+
+.black {
+  color: #fff;
+  background-color: #000;
+  -webkit-transition: color 0.8s, background 0.8s;
+  -moz-transition: color 0.8s, background 0.8s;
+  transition: color 0.8s, background 0.8s;
+}
+
+.black:hover{
+  color: #000;
+  background-color: #fff;
+}
+
+/*IDS*/
